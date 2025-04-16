@@ -1,0 +1,7 @@
+.header {
+    display:flex;
+    background-color:cadetblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:24px;
+    justify-content:center;
+}
