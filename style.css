@@ -1,7 +1,72 @@
-.header {
+
+body {
+    min-height: 100vh;
     display:flex;
-    background-color:cadetblue;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size:24px;
-    justify-content:center;
+    flex-direction:column;
+    background-color:#EAF2D7;
+    justify-content: space-between;
+    margin:0;
+}
+
+.header {
+    display: flex;
+    background-color: #DFD7F2;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    justify-content: center;
+}
+
+h1 {
+    margin:15px;
+}
+
+.content {
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+}
+
+.footer {
+    display: flex;
+    background-color:#DFD7F2;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    justify-content: center;
+}
+
+.card {
+    display:flex;
+    flex-direction:column;
+    padding: 20px;
+    margin: 10px;
+    background-color:white;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+.foot {
+    text-decoration:underline;
+
+}
+
+p {
+    text-align:center;
+    font-size:25px;
+    font-family: monospace, 'Courier New', courier;
+    padding:20px;
+    margin:0px;
+}
+
+img {
+    width:auto;
+    height:250px;
+    border-radius:15px;
+    box-shadow: 2px 5px 20px #B7AED5;
 }
